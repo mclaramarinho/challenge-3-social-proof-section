@@ -338,15 +338,3 @@ p{
 .text{
     font-size: 1.25rem;
 }
-
-
-
-/* ATTRIBUTION SECTION */
-#attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-#attribution a {
-    color: hsl(228, 45%, 44%);
-}
