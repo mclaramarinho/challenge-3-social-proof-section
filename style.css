@@ -1,0 +1,352 @@
+/* RESPONSIVE SETTINGS */
+
+
+/* mobile configuration */
+@media (max-width:994px){
+    /* BODY SETTINGS */
+    body{
+        background-image: url(images/bg-mobile.svg);
+        padding-top: 20%;
+    }
+
+    /* TOP LEFT CONTAINER */
+    #top-left-container{
+        text-align: center;
+    }
+
+    /* TOP RIGHT CONTAINER */
+    .rating-box{
+        background-color: hsl(300, 24%, 96%);
+        margin: 2% 5%;
+    }
+    .rating-box p{
+        text-align: center;
+        padding: 2%;
+        margin: auto;
+    }
+    #description{
+        padding: 2% 5%;
+        font-size: 1.3rem;
+    }
+    .stars{
+        width: 100%;
+        padding-top: 4%;
+    }
+
+    /* TESTIMONIALS SECTION */
+    .testimonial-deck{
+        margin-bottom: 15%;
+        margin-top: 10%;
+    }
+    .testimonial-box{
+        margin: auto;
+        padding: 5% 10%;
+    }
+}
+
+@media (min-width:994px) and (max-width:1050px){
+    body{
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .rating-deck{
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    .rating-box{
+        width: 300px;
+    }
+    #top-left-container{
+        float: left;
+        text-align: left;
+        margin-left: 3%;
+        width: 40%;
+    }
+    .stars{
+        width: fit-content;
+    }
+    .rating-box p{
+        width: 300px;
+    }
+    .testimonial-deck{
+        justify-content: center;
+        margin-top: 2%;
+        margin-bottom: 0px;
+    }
+    .box2{
+        margin-left: 1%;
+    }
+}
+
+
+
+@media (min-width:1050px) and (max-width:1125px) {
+    body{
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .rating-deck{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .rating-box{
+        width: 450px;
+    }
+    #top-left-container{
+        float: left;
+        text-align: left;
+        width: 388px;
+        
+    }
+    #top-right-container{
+        width: 80%;
+    }
+    .testimonial-deck{
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .box2{
+        margin-left: 5%;
+    }
+    
+}
+
+@media (min-width:1125px) and (max-width:1430px) {
+    body{
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+
+    }
+    .container-fluid{
+
+        justify-content: center;
+    }
+    #top-right-container, #top-left-container{
+        justify-content: center;
+    }
+    #headline, #description{
+        width: 350px;
+    }
+    .rating-box{
+        width: 450px;
+        margin-left: 10%;
+        margin-top: 5%;
+        padding-top: 2%;
+    }
+    .testimonial-deck{
+        margin-top: 2%;
+        justify-content: left;
+    }
+    .box2{
+        margin-left: 5%;
+    }
+}
+
+@media (min-width:1430px) and (max-width:1763px){
+    body{
+        background-image: url(images/bg-desktop.svg);
+        margin: 7% 15% 3% 15%;
+        width: 75%;
+    }
+
+    /* TOP LEFT CONTAINER */
+    #top-left-container{
+        float: left;
+    }
+    #headline{
+        width: 380px;
+    }
+    #description{
+        width: 450px;
+        padding-right: 2%;
+    }
+
+
+    /* TOP RIGHT CONTAINER */
+    .rating-deck{
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    .two{
+        margin-left: 10%;
+    }
+    .three{
+        margin-left: 20%;
+    }
+    .rating-box{
+        width: 450px;
+        padding-top: 2%;
+    }
+    body{
+        background-image: url(images/bg-desktop.svg);
+        margin: 7% 15% 3% 15%;
+        width: 75%;
+    }
+
+     /* TESTIMONIALS' SECTION */
+     .testimonial-deck{
+        margin-top: 5%;
+        justify-content: left;
+    }
+    .box2{
+        margin-left: 2%;
+    }
+
+}
+
+@media (min-width:1763px) and (max-width:2000px){
+    body{
+        background-image: url(images/bg-desktop.svg);
+        margin: 7% 15% 3% 15%;
+        width: 75%;
+    }
+
+    /* TOP LEFT CONTAINER */
+    #top-left-container{
+        float: left;
+    }
+    #headline{
+        width: 380px;
+    }
+    #description{
+        width: 450px;
+        padding-right: 2%;
+    }
+
+
+    /* TOP RIGHT CONTAINER */
+    .rating-deck{
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    .two{
+        margin-left: 10%;
+    }
+    .three{
+        margin-left: 20%;
+    }
+    .rating-box{
+        width: 450px;
+        padding-top: 2%;
+    }
+
+    /* TESTIMONIALS' SECTION */
+    .testimonial-deck{
+        margin-top: 5%;
+    }
+    .box2{
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+    .box3{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+}
+
+
+
+
+
+
+/* GENERAL SETTINGS - FOR ALL WIDTHS */
+
+
+/* BODY SETTINGS */
+
+body{
+    font-size: 15px;
+    font-family: 'League Spartan';
+}
+
+/* FONT SETTINGS */
+
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+    color: hsl(300, 43%, 22%);
+    letter-spacing: -.2rem;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+
+/* TOP LEFT CONTAINER */
+#description{
+    color:  hsl(303, 10%, 53%);
+}
+
+/* TOP RIGHT CONTAINER */
+
+.rating-box{
+    background-color: hsl(300, 24%, 96%);
+    -webkit-border-radius: 7;
+    -moz-border-radius:7;
+    border-radius: 7px;
+}
+.two, .three{
+    margin-top: 4%;
+}
+
+.stars{
+    text-align: center;
+}
+
+.stars span{
+    margin-right: 5px;
+    color: orange;
+}
+.rating-box p{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+
+/* TESTIMONIALS' BOXES */
+.testimonial-box{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    margin-bottom: 5%;
+    -webkit-border-radius:7;
+    -moz-border-radius:7;
+    border-radius: 7px;
+    width: 420px;
+}
+.testimonial-box img{
+    border-radius: 100%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 7%;
+    width: 15%;
+}
+.buyer{
+    color: hsl(333, 80%, 67%);
+    margin-top: -20px;
+}
+.name{
+    margin-top: 20px;
+}
+.text{
+    font-size: 1.25rem;
+}
+
+
+
+/* ATTRIBUTION SECTION */
+#attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+#attribution a {
+    color: hsl(228, 45%, 44%);
+}
